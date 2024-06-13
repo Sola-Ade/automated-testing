@@ -21,4 +21,4 @@ console.log(copyArrayContent([5.1, 1.5, 5.2, 6.3], [3.2, 5.6, 9.8])),
 
     console.log(
         copyArrayContent(["cup", True, "scissors"], [3.2, False]),
-        "expect"[error];
+        "expect"[error]
