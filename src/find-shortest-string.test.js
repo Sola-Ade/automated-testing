@@ -6,8 +6,8 @@ test("findShortestString finds the shortest string in an array", () => {
   expect(findShortestString(["why", "hello", "to", "you"])).toBe("to");
 });
 
-test("findShortestString returns the last string in cases of joint Shortest strings", () => {
-  expect(findShortestString(["brave", "dance"])).toBe("dance");
-  expect(findShortestString(["funny", "bravo"])).toBe("bravo");
-  expect(findShortestString(["crazy", "observe"])).toBe("observe");
+test("findShortestString returns the earlier string in cases of joint Shortest strings", () => {
+  expect(findShortestString(["brave", "dance"])).toBe("brave");
+  expect(findShortestString(["funny", "bravo"])).toBe("funny");
+  expect(findShortestString(["crazy", "observe"])).toBe("crazy");
 });
